@@ -15,3 +15,9 @@ git add . // the . means to tell git add all files created, modified and deleted
 
 # to commit changes
 git commit -m 'added readme.md' // -m means message
+
+# to see all the commit histery
+git log
+
+# to check the previous version or switch commit version with the commit id
+git checkout commit-id-here
