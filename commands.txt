@@ -1,0 +1,17 @@
+
+# to setup git 
+git config --global user.name "your name"
+git config --global user.email "youremail@gmail.com"
+
+# to initializ git repo
+git init 
+
+# to check the status
+git status
+
+# to add what to commit
+git add "file name"
+git add . // the . means to tell git add all files created, modified and deleted
+
+# to commit changes
+git commit -m 'added readme.md' // -m means message
