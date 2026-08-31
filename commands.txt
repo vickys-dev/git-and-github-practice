@@ -32,3 +32,24 @@ git remote add origin https://github.com/vickys-dev/git-and-github-practice.git
 
 # to update our local commits to our remote repo
 git push -u origin main
+
+# to create new branch 
+git branch branch-name
+git checkout branch-name // to switch to branch with branch name
+git checkout main // to switch to main branch
+git checkout -b feature-branch // to create and switch to branch
+git branch new-branch-name source-branch // the branch will create based on the branch that we currently are. So, we need to make sure the new branch name with the source branch name
+git push --set-upstream origin feature-branch // git push -u origin feature-branch in this command -u is short for --set-upstream
+git push // this will update our local branch to remote branch after linking it with --set-upstream
+git pull // this will pull the changes others make in our remote branch
+
+
+# the workfolw that we follow most of the time
+- Clone the repo
+- Create a new branch from the main or another branch
+- Make your changes
+- Push the branch to the remote repo
+- Open up a pull request
+- Merge the changes
+- Pull the merged changes into your local main branch
+- Repeat form step 2
